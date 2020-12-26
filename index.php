@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lobster&display=swap" rel="stylesheet"> </head>
+  
+  <body>
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-4">
+     <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Личный кабинет</button>
+    </div>
+    <div class="col-4"  style="font-family: 'Lobster', cursive;">
+      <h1 style="color:#000099">Топаз </h1>
+    </div>
+    <div class="col-4">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Нравится</button>
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Корзина</button>
+    </div>
+  </div>
+  <div class="row">
+  </div>
+</div>
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Серьги</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Кольца</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Подвески</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Браслеты</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Цепочки</button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-outline-primary" style="font-family: 'Lobster', cursive;">Броши</button>
+    </div>
+  </div>
+ </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+  
+  
+  
+  </body>
+</html>
