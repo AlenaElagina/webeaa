@@ -87,6 +87,133 @@
 
 
 
+ <div class="container">
+
+
+        <div class="row justify-content-evenly">
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K2.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K3.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K6.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K7.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+        </div>
+
+</div>
+
+<div class="container">
+
+
+        <div class="row justify-content-evenly">
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K9.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K10.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K4.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K11.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+        </div>
+
+</div>
+
+
+
+<div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K14.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K12.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K15.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K16.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+        </div>
+
+</div>
+
+<div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K8.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K17.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K5.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <form action="">
+                    <button id="close-image"><img src="../assets/images/K1.jpg" class="rounded float-left" width="250" height="250"></button>
+                </form>
+            </div>
+
+        </div>
+
+</div>
+
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 
 </body>
