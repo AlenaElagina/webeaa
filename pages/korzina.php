@@ -27,17 +27,11 @@
             </form>
         </li>
     </ul>
-    <ul class="navbar-nav">
-        <li class="nav-item my-2 my-lg-0">
-            <form action="pages/korzina.php">
-                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
-            </form>
-        </li>
-    </ul>
+
 </nav>
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="font-family: 'Lobster', cursive;">
     <h1 class="display-3" style="color:#000099">Топаз </h1>
-    <h3 class="display-6" style="color:#0000FF">Кольца </h3>
+    <h3 class="display-6" style="color:#0000FF">Корзина </h3>
 </div>
 
 

@@ -15,15 +15,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-              <button href="/pages/lichkab.php" type="button" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Личный кабинет</button>
+              <form action="pages/lichkab.php">
+              <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Личный кабинет</button>
+              </form>
           </li>
       </ul>
       <ul class="navbar-nav">
           <li class="nav-item my-2 my-lg-0">
-              <button type="button" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Нравится</button>
-          </li>
-          <li class="nav-item my-2 my-lg-0">
-              <button type="button" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
+              <form action="pages/korzina.php">
+              <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
+              </form>
           </li>
       </ul>
 
@@ -38,37 +39,37 @@
 
       <div class="col">
           <form action="pages/sergy.php">
-      <button type="button" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Серьги</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Серьги</button>
           </form>
       </div>
 
       <div class="col">
           <form action="pages/kolca.php">
-              <button type="button" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Кольца</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Кольца</button>
           </form>
       </div>
 
       <div class="col">
           <form action="pages/podvesky.php">
-              <button type="button" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Подвески</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Подвески</button>
           </form>
       </div>
 
       <div class="col">
           <form action="pages/braslety.php">
-              <button type="button" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Браслеты</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Браслеты</button>
           </form>
       </div>
 
       <div class="col">
           <form action="pages/cepochky.php">
-              <button type="button" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Цепочки</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Цепочки</button>
           </form>
       </div>
 
       <div class="col">
           <form action="pages/broshky.php">
-              <button type="button" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Броши</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Броши</button>
           </form>
     </div>
   </div>
