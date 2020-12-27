@@ -29,7 +29,7 @@
     </ul>
     <ul class="navbar-nav">
         <li class="nav-item my-2 my-lg-0">
-            <form action="pages/korzina.php">
+            <form action="korzina.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
             </form>
         </li>
