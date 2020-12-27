@@ -80,10 +80,15 @@
 
     <div class="row justify-content-evenly">
         <div class="col-4">
+            <form action="pages/braslety.php">
             <button id="close-image"><img src="assets/images/B8.jpg" class="rounded float-left" width="300" height="300"></button>
+            </form>
         </div>
+
         <div class="col-4">
+            <form action="pages/broshky.php">
             <button id="close-image" ><img src="assets/images/BR8.jpg" class="rounded float-left" width="300" height="300"></button>
+            </form>
         </div>
     </div>
 
@@ -94,34 +99,39 @@
 
   <div class="container marketing">
       <div class="row">
-          <div class="col">
-              <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-              <h2>Heading</h2>
+          <div class="col" style="font-family: 'Lobster', cursive;">
+              <img class="rounded-circle" src="assets/images/B16.jpg" alt="Oops!" width="140" height="140">
+              <h2 style="color:#000099">Браслеты</h2>
               <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div>
-          <div class="col">
-              <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-              <h2>Heading</h2>
+
+          <div class="col" style="font-family: 'Lobster', cursive;">
+              <img class="rounded-circle" src="assets/images/C14.jpg" alt="Oops!" width="140" height="140">
+              <h2 style="color:#000099">Цепочки</h2>
               <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div>
-          <div class="col">
-              <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-              <h2>Heading</h2>
+
+          <div class="col" style="font-family: 'Lobster', cursive;">
+              <img class="rounded-circle" src="assets/images/P21.jpg" alt="Oops!" width="140" height="140">
+              <h2 style="color:#000099">Подвески</h2>
               <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div>
-          <div class="col">
-              <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-              <h2>Heading</h2>
+
+          <div class="col" style="font-family: 'Lobster', cursive;">
+              <img class="rounded-circle" src="assets/images/K18.jpg" alt="Oops!" width="140" height="140">
+              <h2 style="color:#000099">Кольца</h2>
               <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div>
-          <div class="col">
-              <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-              <h2>Heading</h2>
+
+          <div class="col" style="font-family: 'Lobster', cursive;">
+              <img class="rounded-circle" src="assets/images/BR15.jpeg" alt="Oops!" width="140" height="140">
+              <h2 style="color:#000099">Броши</h2>
               <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div>
-          <div class="col">
-              <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-              <h2>Heading</h2>
+
+          <div class="col" style="font-family: 'Lobster', cursive;">
+              <img class="rounded-circle" src="assets/images/S17.jpg" alt="Oops!" width="140" height="140">
+              <h2 style="color:#000099">Серьги</h2>
               <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
           </div>
       </div>
