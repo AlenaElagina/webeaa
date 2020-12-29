@@ -36,6 +36,11 @@ $user = auth();
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
             </form>
         </li>
+        <li class="nav-item active">
+            <form action="lichkab.php">
+                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Выйти</button>
+            </form>
+        </li>
     </ul>
 
 </nav>
