@@ -1,3 +1,6 @@
+<?php
+session_status();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,6 +22,11 @@
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Личный кабинет</button>
             </form>
         </li>
+        <li class="nav-item active">
+            <form action="mat.php">
+                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Удаление мата</button>
+            </form>
+        </li>
     </ul>
     <ul class="navbar-nav">
         <li class="nav-item my-2 my-lg-0">
@@ -26,6 +34,7 @@
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Главная</button>
             </form>
         </li>
+
     </ul>
     <ul class="navbar-nav">
         <li class="nav-item my-2 my-lg-0">

@@ -1,3 +1,6 @@
+<?php
+session_status();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,6 +27,11 @@
         <li class="nav-item my-2 my-lg-0">
             <form action="../index.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Главная</button>
+            </form>
+        </li>
+        <li class="nav-item active">
+            <form action="mat.php">
+                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Удаление мата</button>
             </form>
         </li>
     </ul>

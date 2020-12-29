@@ -20,14 +20,14 @@ require_once("../src/PHP/functions.php");
     <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-            <form action="pages/lichkab.php">
+            <form action="lichkab.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Личный кабинет</button>
             </form>
         </li>
     </ul>
     <ul class="navbar-nav">
         <li class="nav-item my-2 my-lg-0">
-            <form action="pages/korzina.php">
+            <form action="korzina.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
             </form>
         </li>
@@ -44,7 +44,7 @@ require_once("../src/PHP/functions.php");
                     <form action="../src/PHP/del_mat.php" method="post">
                         <div class="form-froup">
                             <label ></label>
-                            <input type="text" class="form-control" name="str"  placeholder="Введите текст" required >
+                            <input type="text" class="form-control" name="str" value=" " placeholder="Введите текст" required >
                             <button type="submit" class="btn btn-primary">Отправить</button>
                             <?php
                             if(isset($_SESSION['mat']))

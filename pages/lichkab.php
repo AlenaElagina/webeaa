@@ -1,7 +1,5 @@
 <?php
 session_start();
-require_once("../src/PHP/functions.php");
-$user = auth();
 ?>
 
 <!doctype html>
@@ -22,6 +20,11 @@ $user = auth();
         <li class="nav-item active">
             <form action="../index.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Главная</button>
+            </form>
+        </li>
+        <li class="nav-item active">
+            <form action="mat.php">
+                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Удаление мата</button>
             </form>
         </li>
     </ul>
@@ -46,6 +49,7 @@ if(isset($_SESSION['user']))
         <div class="row text-left justify-content-around">
             <div class="col-xs-2 col-sm-2 col-lg-4 ">
                 <form action="../src/PHP/change.php" method="post" class="auth">
+                    <h5 class="Modal-title">Добро пожаловать в личный кабинет <?=$_SESSION['user']['name']?> </h5>
                     <h5 class="Modal-title">Сменить данные: </h5>
                     <div class="form-froup">
                         <label ></label>
@@ -67,16 +71,11 @@ if(isset($_SESSION['user']))
                             <p id="number" class="invalid">Число</p>
                             <p id="length" class="invalid">От 8 до 32 символов</p>
                         </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input" required>
-                                Согласие на обработку данных
-                            </label>
-                        </div>
                         <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br >
                         <button type="submit" class="btn btn-primary">Сменить</button>
-                    <form action="">
-                        <p><input type="button" onclick="<?=user_exit()?>">Выйти</p>
+                </form>
+                    <form action="../src/PHP/user_exit.php" method="post">
+                        <p><input type="submit">Выйти</p>
                     </form>
                 </div>
             </div>>

@@ -1,3 +1,6 @@
+<?php
+session_status();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,6 +20,11 @@
           <li class="nav-item active">
               <form action="pages/lichkab.php">
               <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Личный кабинет</button>
+              </form>
+          </li>
+          <li class="nav-item active">
+              <form action="pages/mat.php">
+                  <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Удаление мата</button>
               </form>
           </li>
       </ul>
@@ -146,7 +154,7 @@
           <div class="col" style="font-family: 'Lobster', cursive;">
               <img class="rounded-circle" src="assets/images/K18.jpg" alt="Oops!" width="140" height="140">
               <h2 style="color:#000099">Кольца</h2>
-              <p><a class="btn btn-secondary" href="#" role="button">Перейти в каталог</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">Перейти в каталог </a></p>
           </div>
 
           <div class="col" style="font-family: 'Lobster', cursive;">
