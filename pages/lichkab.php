@@ -1,5 +1,7 @@
 <?php
 session_start();
+require_once ('../src/PHP/functions.php');
+$user = auth();
 ?>
 
 <!doctype html>
@@ -30,7 +32,7 @@ session_start();
     </ul>
     <ul class="navbar-nav">
         <li class="nav-item my-2 my-lg-0">
-            <form action="pages/korzina.php">
+            <form action="korzina.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
             </form>
         </li>
@@ -53,11 +55,11 @@ if(isset($_SESSION['user']))
                     <h5 class="Modal-title">Сменить данные: </h5>
                     <div class="form-froup">
                         <label ></label>
-                        <input type="text" class="form-control" name="name" id="usrname" placeholder="Имя">
+                        <input type="text" class="form-control" name="name" id="usrname" placeholder="<?= $user['name'] ?>">
                         <label></label>
-                        <input type="text" class="form-control" name="surname" placeholder="Фамилия">
+                        <input type="text" class="form-control" name="surname" placeholder="<?= $user['surname'] ?>">
                         <label></label>
-                        <input type="email" class="form-control" name="email" placeholder="Email" >
+                        <input type="email" class="form-control" name="email" placeholder="<?= $user['email'] ?>" >
                         <label></label>
                         <input type="password" class="form-control" name="pass"  id="psw" placeholder="Пароль"
                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">

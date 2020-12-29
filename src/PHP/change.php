@@ -13,7 +13,7 @@ if($_POST) {
             exit();
         }
         $_SESSION['user']['name'] = $name;
-        $res = $mysql->query("UPDATE users SET name = $name WHERE users.id = $id");
+        $res = $mysql->query("UPDATE `users` SET name = $name WHERE `users`.`id` = $id");
     }
     if($_POST['surname'] != NULL){
         $surname = filter_var(trim($_POST['surname']), FILTER_SANITIZE_STRING);
@@ -38,12 +38,12 @@ if($_POST) {
             header('Location: ../../pages/lichkab.php');
             exit();
         }
-        $res = $mysql->query("UPDATE users SET email = $email WHERE users.id = $id");
+        $res = $mysql->query("UPDATE `users` SET email = $email WHERE `users`.`id` = $id");
     }
     if($_POST['pass'] != NULL){
         $pass = filter_var(trim($_POST['pass']), FILTER_SANITIZE_STRING);
         $pass = md5($pass . "fg45g5443");
-        $res = $mysql->query("UPDATE users SET pass = $pass WHERE users.id = $id");
+        $res = $mysql->query("UPDATE `users` SET pass = $pass WHERE `users`.`id` = $id");
     }
     $mysql->close();
     header('Location: ../../pages/lichkab.php');

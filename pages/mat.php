@@ -19,6 +19,13 @@ require_once("../src/PHP/functions.php");
 <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #0000FF;">
     <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
     <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+            <form action="../index.php">
+                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Главная</button>
+            </form>
+        </li>
+
         <li class="nav-item active">
             <form action="lichkab.php">
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Личный кабинет</button>

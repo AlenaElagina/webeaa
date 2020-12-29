@@ -5,6 +5,7 @@ function auth(){
     $mysql = new mysqli('localhost', 'root', 'root', 'Topaz');
     $res = $mysql->query("SELECT * FROM `users` WHERE `id` = '$id'");
     $check = mysqli_num_rows($res);
+    $res = $res->fetch_assoc();
     if ($check) {
         return $res;
     }else{

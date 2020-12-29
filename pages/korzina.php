@@ -1,5 +1,6 @@
 <?php
 session_status();
+
 ?>
 <!doctype html>
 <html lang="en">
