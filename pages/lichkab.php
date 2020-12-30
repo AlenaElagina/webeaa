@@ -36,11 +36,6 @@ $user = auth();
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Корзина</button>
             </form>
         </li>
-        <li class="nav-item active">
-            <form action="lichkab.php">
-                <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Выйти</button>
-            </form>
-        </li>
     </ul>
 
 </nav>
@@ -81,7 +76,7 @@ if(isset($_SESSION['user']))
                         <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br >
                         <button type="submit" class="btn btn-primary">Сменить</button>
                 </form>
-                    <form action="../src/PHP/user_exit.php" method="post">
+                    <form action="../src/PHP/user_exit.php">
                         <p><input type="submit">Выйти</p>
                     </form>
                 </div>
