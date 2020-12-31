@@ -51,7 +51,7 @@ if(isset($_SESSION['user']))
         <div class="row text-left justify-content-around">
             <div class="col-xs-2 col-sm-2 col-lg-4 ">
                 <form action="../src/PHP/change.php" method="post" class="auth">
-                    <h5 class="Modal-title">Добро пожаловать в личный кабинет <?=$_SESSION['user']['name']?> </h5>
+                    <h5 class="Modal-title">Добро пожаловать в личный кабинет <?=$user['name'] ?> </h5>
                     <h5 class="Modal-title">Сменить данные: </h5>
                     <div class="form-froup">
                         <label ></label>
