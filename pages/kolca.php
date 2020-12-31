@@ -100,7 +100,7 @@ session_status();
 
         <div class="row justify-content-evenly">
             <div class="col-3">
-                <form action="">
+                <form action="K2.php">
                     <button id="close-image"><img src="../assets/images/K2.jpg" class="rounded float-left" width="250" height="250"></button>
                 </form>
             </div>
