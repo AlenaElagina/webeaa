@@ -24,33 +24,36 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `users`
+-- Структура таблицы `uvel`
 --
 
-CREATE TABLE `users` (
+CREATE TABLE `uvel` (
   `id` int UNSIGNED NOT NULL,
-  `name` varchar(50) DEFAULT NULL,
-  `surname` varchar(50) DEFAULT NULL,
-  `email` varchar(50) DEFAULT NULL,
-  `pass` varchar(32) DEFAULT NULL
+  `name` varchar(100) DEFAULT NULL,
+  `price` int DEFAULT NULL,
+  `picture` varchar(500) DEFAULT NULL,
+  `category` varchar(500) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `users`
+-- Дамп данных таблицы `uvel`
 --
 
-INSERT INTO `users` (`id`, `name`, `surname`, `email`, `pass`) VALUES
-(1, 'Алёна', 'Елагина', 'test@mail.ru', '24c5bd5d55170549bdc77b56390a153b'),
-(3, 'admin', 'admin', 'admin@mail.ru', 'a06c5f7393f2966bc6a2b7dcee3ddc28');
+INSERT INTO `uvel` (`id`, `name`, `price`, `picture`, `category`) VALUES
+(1, 'Весеннее солнце', 21790, 'K2.jpg', 'кольца'),
+(2, 'Серебро', 5500, 'В11.jpg', 'браслеты'),
+(3, 'Яблоко', 7200, 'BR1.jpg', 'броши'),
+(4, 'test', 123, '123.jpg', 'кольца'),
+(5, 'test1', 123, '4324.jpg', 'цепочки');
 
 --
 -- Индексы сохранённых таблиц
 --
 
 --
--- Индексы таблицы `users`
+-- Индексы таблицы `uvel`
 --
-ALTER TABLE `users`
+ALTER TABLE `uvel`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -58,10 +61,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT для таблицы `users`
+-- AUTO_INCREMENT для таблицы `uvel`
 --
-ALTER TABLE `users`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+ALTER TABLE `uvel`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -29,6 +29,18 @@ $user = auth();
                 <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Удаление мата</button>
             </form>
         </li>
+        <?php
+        if($user['id'] == 3)
+        {
+            ?>
+            <li class="nav-item active">
+                <form action="admin.php">
+                    <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Админ панель</button>
+                </form>
+            </li>
+            <?php
+        }
+        ?>
     </ul>
     <ul class="navbar-nav">
         <li class="nav-item my-2 my-lg-0">
@@ -76,7 +88,7 @@ if(isset($_SESSION['user']))
                         <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br >
                         <button type="submit" class="btn btn-primary">Сменить</button>
                 </form>
-                    <form action="../src/PHP/user_exit.php">
+                    <form action="../src/PHP/user_exit.php" method="post">
                         <p><input type="submit">Выйти</p>
                     </form>
                 </div>

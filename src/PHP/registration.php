@@ -26,12 +26,12 @@ if($_POST){
     $check = mysqli_num_rows($res);
     if ($check) {
         $_SESSION['message2'] = 'Данный пользователь уже зарегестрирован';
-        header('Location: ../../pages/c.php');
+        header('Location: ../../pages/lichkab.php');
         exit();
     }
     $mysql->query("INSERT INTO `users` (`email`, `name`, `surname`, `pass`) VALUES('$email','$name','$surname','$pass')");
 
-    $user = $mysql->query("SELECT `id`, `name` FROM users WHERE `surname` = `$surname` AND `pass` = :`$pass`");
+    $user = $mysql->query("SELECT `id`, `name` FROM users WHERE `email` = `$email` AND `pass` = `$pass`");
     $_SESSION['user'] = [
         "id" => $user['id'],
         "name" => $user['name']
