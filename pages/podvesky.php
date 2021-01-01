@@ -91,6 +91,249 @@ session_status();
 </div>
 
 <div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P1.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P2.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P3.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P4.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P5.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P6.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P7.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P8.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P9.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P10.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P11.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P12.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P13.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P14.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P15.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P16.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P17.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P18.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P19.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P20.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P22.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P34.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P23.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P33.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P32.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P24.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P30.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P25.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P31.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P26.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P29.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/P27.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
 
 
 
