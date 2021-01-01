@@ -183,7 +183,7 @@ session_status();
 
             <div class="col-3">
                 <form action="">
-                    <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/K16.jpg" class="rounded float-left" width="250" height="250"></button>
+                    <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/K20.jpg" class="rounded float-left" width="250" height="250"></button>
                 </form>
             </div>
 
