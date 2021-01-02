@@ -94,25 +94,25 @@ session_status();
     <div class="row justify-content-evenly">
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR1.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR2.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR5.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR6.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
@@ -124,88 +124,25 @@ session_status();
     <div class="row justify-content-evenly">
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR7.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR8.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR9.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-    </div>
-
-</div>
-
-
-
-<div class="container">
-    <div class="row justify-content-evenly">
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-    </div>
-
-</div>
-
-
-<div class="container">
-    <div class="row justify-content-evenly">
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
-            </form>
-        </div>
-
-        <div class="col-3">
-            <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR14.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
@@ -219,25 +156,25 @@ session_status();
     <div class="row justify-content-evenly">
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR17.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR18.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR19.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR20.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
@@ -250,25 +187,88 @@ session_status();
     <div class="row justify-content-evenly">
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR21.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR22.png" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR23.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR24.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR25.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR26.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR27.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR28.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-evenly">
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR29.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR30.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR31.jpg" class="rounded float-left" width="250" height="250"></button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <form action="">
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR32.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
@@ -280,25 +280,25 @@ session_status();
     <div class="row justify-content-evenly">
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR33.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR34.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR35.jpeg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR36.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
     </div>
@@ -309,25 +309,25 @@ session_status();
     <div class="row justify-content-evenly">
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR37.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR41.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR39.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
         <div class="col-3">
             <form action="">
-                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/.jpg" class="rounded float-left" width="250" height="250"></button>
+                <button class="btn btn-outline-primary" id="close-image"><img src="../assets/images/BR40.jpg" class="rounded float-left" width="250" height="250"></button>
             </form>
         </div>
 
