@@ -44,7 +44,6 @@ session_status();
 
 <div class="container">
   <div class="row align-items-center">
-
       <div class="col">
           <form action="pages/sergy.php">
               <button type="submit" class="btn btn-outline-primary btn-lg" style="font-family: 'Lobster', cursive;">Серьги</button>
