@@ -44,7 +44,7 @@ $user = auth();
                     <button type="submit" name="subBtn" class="btn btn-outline-success my-2 my-sm-0">Найти</button>
                 </form>
             </li>
-        <?php
+            <?php
         }
         ?>
     </ul>
@@ -66,9 +66,12 @@ $user = auth();
 <?php
 if($user['id'] == 3)
 {
-    $mysql = new mysqli('localhost', 'root', 'root', 'Topaz');
-    $add = $mysql->query("SELECT * FROM `uvel`");
-    $add = mysqli_fetch_all($add);
+    $connect = new mysqli("127.0.0.1", "root", "root", "Topaz");
+    $search_get = $_GET['search'];
+    $sql = "SELECT * FROM `uvel` WHERE `name` LIKE '%$search_get%'";
+    $select = $connect->query($sql);
+    $select_wile = $select->fetch_assoc();
+    $i = 0;
     ?>
     <table class="table">
         <thead class="thead-dark">
@@ -85,53 +88,33 @@ if($user['id'] == 3)
         </thead>
         <tbody>
         <?php
-        foreach ($add as $uel) {
+        for (; $i < mysqli_num_rows($select); $i++) {
             ?>
-        <tr>
-            <td><?= $uel[0] ?></td>
-            <td><?= $uel[1] ?></td>
-            <td><?= $uel[2]?></td>
-            <td><?= $uel[3] ?></td>
-            <td><?= $uel[4] ?></td>
-            <td><a href="amount.php?id=<?=$uel[0]?>">Посмотреть</a></td>
-            <td><a style="color: green" href="upd_admin.php?id=<?=$uel[0]?>">Update</a></td>
-            <td><a onclick="return confirm('Are you sure?')" style="color: red" href="/src/PHP/del_admin.php?id=<?=$uel[0]?>&picture=<?=$uel[3]?>">Delete</a></td>
-        </tr>
-        <?php
+            <tr>
+                <td><?= $select_wile['id'] ?></td>
+                <td><?= $select_wile['name'] ?></td>
+                <td><?= $select_wile['price'] ?></td>
+                <td><?= $select_wile['picture']  ?></td>
+                <td><?= $select_wile['category']  ?></td>
+                <td><a href="amount.php?id=<?=$select_wile['id'] ?>">Посмотреть</a></td>
+                <td><a style="color: green" href="upd_admin.php?id=<?=$select_wile['id'] ?>">Update</a></td>
+                <td><a onclick="return confirm('Are you sure?')" style="color: red" href="/src/PHP/del_admin.php?id=<?=$select_wile['id'] ?>&picture=<?=$uel[3]?>">Delete</a></td>
+            </tr>
+            <?php
+            $select_wile = $select->fetch_assoc();
         }
         ?>
         </tbody>
     </table>
-    <div>
-        <form action ="../src/PHP/admin.php" method="post" enctype="multipart/form-data">
-            <h4>Название</h4>
-            <input type="text" name="name" placeholder="name" required>
-            <h4>Цена</h4>
-            <input type="number" name="price" placeholder="price" required>
-            <h4>Картинка</h4>
-            <input type="hidden" name="MAX_FILE_SIZE" value="1000000">
-            <input type='file' name='file' class='file-drop' id='file-drop'><br>
-            <h4>Категория</h4>
-            <p><select name="category" size="6" multiple style="min-width: 240px; ">
-                    <option selected value="кольца">кольца </option>
-                    <option value="серьги">серьги </option>
-                    <option value="подвески">подвески </option>
-                    <option value="браслеты">браслеты </option>
-                    <option value="цепочки">цепочки </option>
-                    <option value="броши">броши</option>
-                </select>
-                <br></br>
-                <input type='submit' value='Добавить' >
-            </p>
-        </form>
-    </div>
-<?php
+    <?php
+
 }
+
 else{
     echo 'вы не админ';
 }
 ?>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 
 </body>
 </html>

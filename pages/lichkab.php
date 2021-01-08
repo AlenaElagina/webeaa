@@ -2,6 +2,7 @@
 session_start();
 require_once ('../src/PHP/functions.php');
 $user = auth();
+
 ?>
 
 <!doctype html>
@@ -38,6 +39,7 @@ $user = auth();
                     <button type="submit" class="btn btn-outline-light" style="font-family: 'Lobster', cursive;">Админ панель</button>
                 </form>
             </li>
+
             <?php
         }
         ?>
@@ -60,7 +62,7 @@ if(isset($_SESSION['user']))
     ?>
 <div class="container-fluid">
     <div class="container">
-        <div class="row text-left justify-content-around">
+        <div class="row text-left">
             <div class="col-xs-2 col-sm-2 col-lg-4 ">
                 <form action="../src/PHP/change.php" method="post" class="auth">
                     <h5 class="Modal-title">Добро пожаловать в личный кабинет <?=$user['name'] ?> </h5>
@@ -85,17 +87,19 @@ if(isset($_SESSION['user']))
                             <p id="number" class="invalid">Число</p>
                             <p id="length" class="invalid">От 8 до 32 символов</p>
                         </div>
-                        <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br >
                         <button type="submit" class="btn btn-primary">Сменить</button>
                 </form>
                     <form action="../src/PHP/user_exit.php" method="post">
                         <p><input type="submit">Выйти</p>
                     </form>
-                </div>
-            </div>>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-lg-4 ">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab27f166876a8e8b2f60d17af857ff87459984c0ff9e41ead093906a4f22a74e7&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>>
+
         </div>
     </div>
-</div>
 <?php
 }else{
 ?>
@@ -125,8 +129,12 @@ if(isset($_SESSION['user']))
                         <p id="number" class="invalid">Число</p>
                         <p id="length" class="invalid">От 6 до 32 символов</p>
                     </div>
-                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br >
                     <button type="submit" class="btn btn-primary">Регестрация</button>
+                    <?php
+                    if($_SESSION['mess1'])
+                        echo '<div class="msg">'. $_SESSION['mess2'] .'</div>';
+                    unset($_SESSION['mess1']);
+                    ?>
                 </form>
             </div>
             <div class="col-xs-3 col-sm-2 col-lg-4">
